@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean id="courseReg" class="com.klu.demo.model.CourseRegistration">
+       <constructor-arg value="1357"/>
+       <constructor-arg value="Bharath"/>
+       <property name="courseName" value="FSAD"/>
+       <property name="semester" value="8"/>
+       </bean>
+</beans>
