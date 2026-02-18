@@ -1,0 +1,24 @@
+package com.klu.service;
+
+import java.util.List;
+import com.klu.model.Student;   // ✅ Add this line
+
+public interface StudentService {
+
+    String getWelcomeMessage();
+
+    Student createStudent(Student student);
+
+    Student getStudentById(int id);
+
+    List<Student> getAllStudents();
+
+    Student updateStudent(int id, Student student);
+
+    String deleteStudent(int id);
+
+    List<Student> searchStudent(String name);
+}
+
+
+
